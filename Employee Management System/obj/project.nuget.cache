@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "85VActA28ng=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dmin\\TUNAY-NA-EMS\\Employee Management System\\Employee Management System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dmin\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.8\\system.configuration.configurationmanager.9.0.8.nupkg.sha512",
+    "C:\\Users\\dmin\\.nuget\\packages\\system.data.oledb\\9.0.8\\system.data.oledb.9.0.8.nupkg.sha512",
+    "C:\\Users\\dmin\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.8\\system.diagnostics.eventlog.9.0.8.nupkg.sha512",
+    "C:\\Users\\dmin\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.8\\system.diagnostics.performancecounter.9.0.8.nupkg.sha512",
+    "C:\\Users\\dmin\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.8\\system.security.cryptography.protecteddata.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
