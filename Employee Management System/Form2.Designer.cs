@@ -36,8 +36,8 @@
             Label lblConPass;
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            dgvUsers = new DataGridView();
             panel1 = new Panel();
+            panel2 = new Panel();
             btnExecute = new Button();
             lblNumber = new Label();
             lblMatch = new Label();
@@ -48,6 +48,9 @@
             txtFullname = new TextBox();
             txtUsername = new TextBox();
             dataGridView1 = new DataGridView();
+            dgvUsers = new DataGridView();
+            panel3 = new Panel();
+            Download = new Button();
             tabPage2 = new TabPage();
             lblUsername = new Label();
             lblFullName = new Label();
@@ -57,9 +60,10 @@
             lblConPass = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvUsers).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvUsers).BeginInit();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // lblUsername
@@ -146,8 +150,9 @@
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(dgvUsers);
             tabPage1.Controls.Add(panel1);
+            tabPage1.Controls.Add(dgvUsers);
+            tabPage1.Controls.Add(panel3);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -156,18 +161,9 @@
             tabPage1.Text = "User Registration";
             tabPage1.UseVisualStyleBackColor = true;
             // 
-            // dgvUsers
-            // 
-            dgvUsers.BackgroundColor = SystemColors.ActiveCaption;
-            dgvUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvUsers.Dock = DockStyle.Fill;
-            dgvUsers.Location = new Point(241, 3);
-            dgvUsers.Name = "dgvUsers";
-            dgvUsers.Size = new Size(548, 416);
-            dgvUsers.TabIndex = 1;
-            // 
             // panel1
             // 
+            panel1.Controls.Add(panel2);
             panel1.Controls.Add(btnExecute);
             panel1.Controls.Add(lblNumber);
             panel1.Controls.Add(lblMatch);
@@ -185,14 +181,21 @@
             panel1.Controls.Add(lblUsername);
             panel1.Controls.Add(dataGridView1);
             panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(3, 3);
+            panel1.Location = new Point(3, 37);
             panel1.Name = "panel1";
-            panel1.Size = new Size(238, 416);
+            panel1.Size = new Size(238, 382);
             panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.Location = new Point(238, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(548, 29);
+            panel2.TabIndex = 3;
             // 
             // btnExecute
             // 
-            btnExecute.Location = new Point(130, 363);
+            btnExecute.Location = new Point(130, 351);
             btnExecute.Name = "btnExecute";
             btnExecute.Size = new Size(105, 23);
             btnExecute.TabIndex = 15;
@@ -276,12 +279,44 @@
             dataGridView1.Size = new Size(240, 150);
             dataGridView1.TabIndex = 0;
             // 
+            // dgvUsers
+            // 
+            dgvUsers.BackgroundColor = SystemColors.ActiveCaption;
+            dgvUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvUsers.Dock = DockStyle.Fill;
+            dgvUsers.Location = new Point(3, 37);
+            dgvUsers.Name = "dgvUsers";
+            dgvUsers.Size = new Size(786, 382);
+            dgvUsers.TabIndex = 1;
+            dgvUsers.CellContentClick += dgvUsers_CellContentClick;
+            dgvUsers.CellDoubleClick += dgvUsers_CellDoubleClick;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(Download);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(3, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(786, 34);
+            panel3.TabIndex = 3;
+            // 
+            // Download
+            // 
+            Download.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            Download.Location = new Point(706, 5);
+            Download.Name = "Download";
+            Download.Size = new Size(75, 23);
+            Download.TabIndex = 2;
+            Download.Text = "Download";
+            Download.UseVisualStyleBackColor = true;
+            Download.Click += button1_Click;
+            // 
             // tabPage2
             // 
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(776, 403);
+            tabPage2.Size = new Size(792, 422);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Section Registration";
             tabPage2.UseVisualStyleBackColor = true;
@@ -298,10 +333,11 @@
             Load += Form2_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvUsers).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvUsers).EndInit();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -322,5 +358,8 @@
         private Label lblNumber;
         private Label lblMatch;
         private Button btnExecute;
+        private Button Download;
+        private Panel panel3;
+        private Panel panel2;
     }
 }

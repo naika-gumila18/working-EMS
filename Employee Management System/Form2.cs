@@ -25,7 +25,14 @@ namespace Employee_Management_System
 
         private void Form2_Load(object sender, EventArgs e)
         {
-           
+            string selectUsers = "SELECT * FROM [tblUsers] ORDER BY ID DESC";
+            CRUD.CRUD.RETRIEVEDTG(dgvUsers, selectUsers);
+
+            CRUD.CRUD.RETRIEVECBO(cbSection, "SELECT [ID], [SECTION] FROM [tblSection] ORDER BY [Section] asc", "Section", "ID");
+            //CRUD.CRUD.RETRIEVEDTG(dgvUsers, "SELECT * FROM [tblUsers]", "Username", "ID");
+
+
+
         }
 
         private void Match()
@@ -51,8 +58,8 @@ namespace Employee_Management_System
             if (result == DialogResult.Yes)
             {
                 //*
-                 string insertUser = "INSERT INTO [tblUsers] ([Username], [Password], [Fullname], [Age], [Section]) " +
-                                    "VALUES ('" + txtUsername.Text + "', '" + txtPassword.Text + "', '" + txtFullname.Text + "', '" + txtAge.Text + "', '" + cbSection.Text + "')";
+                string insertUser = "INSERT INTO [tblUsers] ([Username], [Password], [Fullname], [Age], [Section]) " +
+                                   "VALUES ('" + txtUsername.Text + "', '" + txtPassword.Text + "', '" + txtFullname.Text + "', '" + txtAge.Text + "', '" + cbSection.Text + "')";
 
 
                 CRUD.CRUD.CUD(insertUser);
@@ -92,6 +99,39 @@ namespace Employee_Management_System
 
             Match();
         }
+
+        private void dgvUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtUsername.Text = dgvUsers.Rows[e.RowIndex].Cells["Username"].Value.ToString();
+            txtPassword.Text = dgvUsers.Rows[e.RowIndex].Cells["Password"].Value.ToString();
+            txtFullname.Text = dgvUsers.Rows[e.RowIndex].Cells["Fullname"].Value.ToString();
+            txtAge.Text = dgvUsers.Rows[e.RowIndex].Cells["Age"].Value.ToString();
+            cbSection.Text = dgvUsers.Rows[e.RowIndex].Cells["Section"].Value.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ExportDgv.ExportToExcel(dgvUsers, "ExportData");
+        }
+
+        private void dgvUsers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+         //   string templatePath = "C:\Employee Details.xlsx";
+         //   string savePath = "C:\Employee Details\EmployeeDetails.xlsx";
+
+         //   ExportCellFromDgv.ExportFromTemplate(
+         //       templatePath,
+         //       savePath,
+         //       "B1", dgvUsers.Rows[e.RowIndex].Cells["Fullname"].Value.ToString(),
+         //       "H2", dgvUsers.Rows[e.RowIndex].Cells["Age"].Value.ToString(),
+         //       "H1", dgvUsers.Rows[e.RowIndex].Cells["Section"].Value.ToString(),
+         //       "B2", dgvUsers.Rows[e.RowIndex].Cells["Username"].Value.ToString(),
+         //       "A32", DateTime.Now.ToString("MM/dd/yyyy"),
+         //       "A33", LoginPage.Fullname
+         //       );
+         //}
+        }
     }
-}   
+}
+
 
