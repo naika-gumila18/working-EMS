@@ -40,6 +40,7 @@
             // 
             // pnlChildTitle
             // 
+            pnlChildTitle.BackColor = SystemColors.ActiveCaption;
             pnlChildTitle.Controls.Add(lblMasterData);
             pnlChildTitle.Dock = DockStyle.Top;
             pnlChildTitle.Location = new Point(0, 0);
@@ -59,7 +60,7 @@
             // 
             // dtgMasterData
             // 
-            dtgMasterData.BackgroundColor = SystemColors.ActiveCaption;
+            dtgMasterData.BackgroundColor = SystemColors.ScrollBar;
             dtgMasterData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgMasterData.Dock = DockStyle.Fill;
             dtgMasterData.Location = new Point(0, 57);
@@ -81,12 +82,13 @@
             // btnEditData
             // 
             btnEditData.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnEditData.BackColor = SystemColors.ActiveCaption;
             btnEditData.Location = new Point(627, 329);
             btnEditData.Name = "btnEditData";
             btnEditData.Size = new Size(106, 33);
             btnEditData.TabIndex = 2;
             btnEditData.Text = "Edit Data";
-            btnEditData.UseVisualStyleBackColor = true;
+            btnEditData.UseVisualStyleBackColor = false;
             btnEditData.Click += btnEditData_Click;
             // 
             // lblTransactionNo

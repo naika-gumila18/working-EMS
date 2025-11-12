@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KmhAFHsOx38=",
+  "dgSpecHash": "PMiOmGK4I9Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+  "projectFilePath": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dmin\\.nuget\\packages\\microsoft.office.interop.excel\\16.0.18925.20022\\microsoft.office.interop.excel.16.0.18925.20022.nupkg.sha512",
-    "C:\\Users\\dmin\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.8\\system.configuration.configurationmanager.9.0.8.nupkg.sha512",
-    "C:\\Users\\dmin\\.nuget\\packages\\system.data.oledb\\9.0.8\\system.data.oledb.9.0.8.nupkg.sha512",
-    "C:\\Users\\dmin\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.8\\system.diagnostics.eventlog.9.0.8.nupkg.sha512",
-    "C:\\Users\\dmin\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.8\\system.diagnostics.performancecounter.9.0.8.nupkg.sha512",
-    "C:\\Users\\dmin\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.8\\system.security.cryptography.protecteddata.9.0.8.nupkg.sha512"
+    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.10\\system.configuration.configurationmanager.9.0.10.nupkg.sha512",
+    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.data.oledb\\9.0.10\\system.data.oledb.9.0.10.nupkg.sha512",
+    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.10\\system.diagnostics.eventlog.9.0.10.nupkg.sha512",
+    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.10\\system.diagnostics.performancecounter.9.0.10.nupkg.sha512",
+    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.10\\system.security.cryptography.protecteddata.9.0.10.nupkg.sha512"
   ],
   "logs": []
 }

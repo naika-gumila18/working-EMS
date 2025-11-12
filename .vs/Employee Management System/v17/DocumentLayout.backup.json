@@ -1,50 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dmin\\working-EMS\\",
+  "WorkspaceRootPath": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\dmin\\working-EMS\\employee management system\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\employee management system\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\dmin\\working-EMS\\employee management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\dmin\\working-EMS\\employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\exportdgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\exportdgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\exportdgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\exportcellfromdgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\exportcellfromdgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\exportcellfromdgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\employee management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\employee management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\dmin\\working-EMS\\employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\dmin\\working-ems\\employee management system\\crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\employee management system\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\crud\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\employee management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\employee management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\employee management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\frmaddemployee.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\frmaddemployee.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|c:\\users\\ccitguest\\desktop\\ems final\\working-ems\\employee management system\\crud\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C887C997-B9E4-4975-9CB9-AE1DB68C6B52}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\crud\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,138 +78,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmAddEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmAddEmployee.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\frmAddEmployee.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmAddEmployee.cs*",
-              "RelativeToolTip": "Employee Management System\\frmAddEmployee.cs*",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAlwHcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:05:56.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAddEmployee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmAddEmployee.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\frmAddEmployee.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmAddEmployee.cs [Design]",
-              "RelativeToolTip": "Employee Management System\\frmAddEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T07:05:51.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ExportCellFromDgv.cs",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\ExportCellFromDgv.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\ExportCellFromDgv.cs",
               "RelativeDocumentMoniker": "Employee Management System\\ExportCellFromDgv.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\ExportCellFromDgv.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\ExportCellFromDgv.cs",
               "RelativeToolTip": "Employee Management System\\ExportCellFromDgv.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEAAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T06:25:23.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employee Management System.csproj",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
-              "RelativeDocumentMoniker": "Employee Management System\\Employee Management System.csproj",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
-              "RelativeToolTip": "Employee Management System\\Employee Management System.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-07T05:42:35.118Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ExportDgv.cs",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\ExportDgv.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\ExportDgv.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\ExportDgv.cs",
-              "RelativeToolTip": "Employee Management System\\ExportDgv.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T05:43:16.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CRUD.cs",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\CRUD\\CRUD.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\CRUD\\CRUD.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\CRUD\\CRUD.cs",
-              "RelativeToolTip": "Employee Management System\\CRUD\\CRUD.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T05:35:56.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form2.cs",
               "RelativeDocumentMoniker": "Employee Management System\\Form2.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Form2.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form2.cs",
               "RelativeToolTip": "Employee Management System\\Form2.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAQwIQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAjwHUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T05:16:33.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Form1.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\Form1.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Form1.cs [Design]",
-              "RelativeToolTip": "Employee Management System\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T05:16:25.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmLogin.cs",
-              "RelativeDocumentMoniker": "Employee Management System\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmLogin.cs",
-              "RelativeToolTip": "Employee Management System\\frmLogin.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwB8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T11:56:06.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmLogin.cs",
               "RelativeDocumentMoniker": "Employee Management System\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\frmLogin.cs [Design]",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmLogin.cs [Design]",
               "RelativeToolTip": "Employee Management System\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T11:56:01.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "CRUD.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\CRUD\\CRUD.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\CRUD\\CRUD.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\CRUD\\CRUD.cs",
+              "RelativeToolTip": "Employee Management System\\CRUD\\CRUD.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAvwFoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T05:35:56.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmLogin.cs",
+              "RelativeToolTip": "Employee Management System\\frmLogin.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwD8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:56:06.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMasterData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmMasterData.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\frmMasterData.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmMasterData.cs [Design]",
+              "RelativeToolTip": "Employee Management System\\frmMasterData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T06:56:27.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAddEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\frmAddEmployee.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.cs [Design]",
+              "RelativeToolTip": "Employee Management System\\frmAddEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:05:51.973Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form2.cs",
               "RelativeDocumentMoniker": "Employee Management System\\Form2.cs",
-              "ToolTip": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Form2.cs [Design]",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form2.cs [Design]",
               "RelativeToolTip": "Employee Management System\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T11:55:47.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExportDgv.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\ExportDgv.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\ExportDgv.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\ExportDgv.cs",
+              "RelativeToolTip": "Employee Management System\\ExportDgv.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T05:43:16.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\frmAddEmployee.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.cs",
+              "RelativeToolTip": "Employee Management System\\frmAddEmployee.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T07:05:56.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Employee Management System.csproj",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+              "RelativeDocumentMoniker": "Employee Management System\\Employee Management System.csproj",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+              "RelativeToolTip": "Employee Management System\\Employee Management System.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-07T05:42:35.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmMasterData.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmMasterData.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\frmMasterData.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmMasterData.cs",
+              "RelativeToolTip": "Employee Management System\\frmMasterData.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T08:36:02.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form1.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Form1.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form1.cs [Design]",
+              "RelativeToolTip": "Employee Management System\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T05:16:25.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmAddEmployee.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.Designer.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\frmAddEmployee.Designer.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.Designer.cs",
+              "RelativeToolTip": "Employee Management System\\frmAddEmployee.Designer.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAQwK0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:32:03.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmAddEmployee.resx",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.resx",
+              "RelativeDocumentMoniker": "Employee Management System\\frmAddEmployee.resx",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\frmAddEmployee.resx",
+              "RelativeToolTip": "Employee Management System\\frmAddEmployee.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-08T07:32:00.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form1.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\Form1.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Form1.cs",
+              "RelativeToolTip": "Employee Management System\\Form1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T06:26:25.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\CRUD\\Connection.cs",
+              "RelativeDocumentMoniker": "Employee Management System\\CRUD\\Connection.cs",
+              "ToolTip": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\CRUD\\Connection.cs",
+              "RelativeToolTip": "Employee Management System\\CRUD\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T06:06:29.505Z"
             }
           ]
         }

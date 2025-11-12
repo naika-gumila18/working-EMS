@@ -50,7 +50,7 @@ namespace Employee_Management_System
                 return;
             }
 
-            // Get user info
+
             string sql = $"SELECT [Fullname], [Section], [Age], [Username], [Password] FROM tblUsers WHERE Username = '{username}'";
 
             bool foundUser = CRUD.CRUD.RETRIEVESINGLE(sql);

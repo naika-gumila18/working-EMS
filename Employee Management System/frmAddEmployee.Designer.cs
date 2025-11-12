@@ -51,22 +51,24 @@
             // 
             // panel1
             // 
+            panel1.BackColor = SystemColors.ActiveCaption;
             panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 66);
+            panel1.Size = new Size(800, 63);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Sitka Heading", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 28);
+            label1.Font = new Font("Sitka Heading", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(8, 19);
             label1.Name = "label1";
-            label1.Size = new Size(112, 23);
+            label1.Size = new Size(134, 28);
             label1.TabIndex = 0;
             label1.Text = "Add Employee";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -82,7 +84,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Sitka Text", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(8, 36);
+            label3.Location = new Point(1, 96);
             label3.Name = "label3";
             label3.Size = new Size(116, 18);
             label3.TabIndex = 2;
@@ -92,7 +94,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Sitka Text", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(19, 79);
+            label4.Location = new Point(20, 126);
             label4.Name = "label4";
             label4.Size = new Size(104, 18);
             label4.TabIndex = 3;
@@ -102,7 +104,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Sitka Text", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(33, 124);
+            label5.Location = new Point(31, 163);
             label5.Name = "label5";
             label5.Size = new Size(93, 18);
             label5.TabIndex = 4;
@@ -112,7 +114,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Sitka Text", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(32, 168);
+            label6.Location = new Point(34, 198);
             label6.Name = "label6";
             label6.Size = new Size(90, 18);
             label6.TabIndex = 5;
@@ -122,7 +124,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Sitka Text", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(68, 209);
+            label7.Location = new Point(63, 236);
             label7.Name = "label7";
             label7.Size = new Size(54, 18);
             label7.TabIndex = 6;
@@ -130,7 +132,7 @@
             // 
             // txtEmpID
             // 
-            txtEmpID.Location = new Point(123, 33);
+            txtEmpID.Location = new Point(123, 89);
             txtEmpID.Multiline = true;
             txtEmpID.Name = "txtEmpID";
             txtEmpID.Size = new Size(295, 30);
@@ -138,7 +140,7 @@
             // 
             // txtRequestorName
             // 
-            txtRequestorName.Location = new Point(123, 76);
+            txtRequestorName.Location = new Point(123, 125);
             txtRequestorName.Multiline = true;
             txtRequestorName.Name = "txtRequestorName";
             txtRequestorName.Size = new Size(295, 30);
@@ -146,7 +148,7 @@
             // 
             // txtEmailAddress
             // 
-            txtEmailAddress.Location = new Point(123, 121);
+            txtEmailAddress.Location = new Point(123, 161);
             txtEmailAddress.Multiline = true;
             txtEmailAddress.Name = "txtEmailAddress";
             txtEmailAddress.Size = new Size(295, 30);
@@ -154,7 +156,7 @@
             // 
             // txtLocalNumber
             // 
-            txtLocalNumber.Location = new Point(123, 165);
+            txtLocalNumber.Location = new Point(123, 197);
             txtLocalNumber.Multiline = true;
             txtLocalNumber.Name = "txtLocalNumber";
             txtLocalNumber.Size = new Size(295, 30);
@@ -163,7 +165,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.BackColor = SystemColors.ButtonFace;
+            groupBox1.BackColor = SystemColors.ScrollBar;
             groupBox1.Controls.Add(btnDelete);
             groupBox1.Controls.Add(cmbSection);
             groupBox1.Controls.Add(btnInsertUpdate);
@@ -178,16 +180,18 @@
             groupBox1.Controls.Add(txtEmpID);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label3);
-            groupBox1.Location = new Point(4, 67);
+            groupBox1.Dock = DockStyle.Fill;
+            groupBox1.ForeColor = SystemColors.ControlText;
+            groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(794, 305);
+            groupBox1.Size = new Size(800, 450);
             groupBox1.TabIndex = 11;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(304, 209);
+            btnDelete.Location = new Point(304, 236);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(114, 23);
             btnDelete.TabIndex = 14;
@@ -199,10 +203,10 @@
             // 
             cmbSection.BackColor = SystemColors.ActiveCaption;
             cmbSection.DropDownHeight = 110;
-            cmbSection.ForeColor = SystemColors.ButtonHighlight;
+            cmbSection.ForeColor = Color.Black;
             cmbSection.FormattingEnabled = true;
             cmbSection.IntegralHeight = false;
-            cmbSection.Location = new Point(123, 209);
+            cmbSection.Location = new Point(123, 236);
             cmbSection.Name = "cmbSection";
             cmbSection.Size = new Size(175, 23);
             cmbSection.TabIndex = 11;
@@ -211,7 +215,7 @@
             // 
             btnInsertUpdate.BackColor = SystemColors.ActiveCaption;
             btnInsertUpdate.Font = new Font("Sitka Text", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnInsertUpdate.Location = new Point(123, 239);
+            btnInsertUpdate.Location = new Point(123, 265);
             btnInsertUpdate.Name = "btnInsertUpdate";
             btnInsertUpdate.Size = new Size(124, 36);
             btnInsertUpdate.TabIndex = 12;
@@ -223,7 +227,7 @@
             // 
             button2.BackColor = SystemColors.ActiveCaption;
             button2.Font = new Font("Sitka Text", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(424, 33);
+            button2.Location = new Point(424, 90);
             button2.Name = "button2";
             button2.Size = new Size(87, 30);
             button2.TabIndex = 13;

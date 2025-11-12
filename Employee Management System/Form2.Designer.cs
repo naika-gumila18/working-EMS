@@ -163,6 +163,7 @@
             // 
             // panel1
             // 
+            panel1.BackColor = SystemColors.ActiveCaption;
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(btnExecute);
             panel1.Controls.Add(lblNumber);
@@ -220,6 +221,7 @@
             lblMatch.Size = new Size(49, 15);
             lblMatch.TabIndex = 13;
             lblMatch.Text = "/ Match";
+            lblMatch.Click += lblMatch_Click;
             // 
             // txtConfirmPassword
             // 
@@ -254,6 +256,7 @@
             cbSection.Name = "cbSection";
             cbSection.Size = new Size(230, 23);
             cbSection.TabIndex = 6;
+            cbSection.SelectedIndexChanged += cbSection_SelectedIndexChanged;
             // 
             // txtFullname
             // 
@@ -281,7 +284,7 @@
             // 
             // dgvUsers
             // 
-            dgvUsers.BackgroundColor = SystemColors.ActiveCaption;
+            dgvUsers.BackgroundColor = SystemColors.ScrollBar;
             dgvUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvUsers.Dock = DockStyle.Fill;
             dgvUsers.Location = new Point(3, 37);
@@ -293,6 +296,7 @@
             // 
             // panel3
             // 
+            panel3.BackColor = SystemColors.ControlLight;
             panel3.Controls.Add(Download);
             panel3.Dock = DockStyle.Top;
             panel3.Location = new Point(3, 3);
@@ -303,12 +307,13 @@
             // Download
             // 
             Download.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            Download.Location = new Point(706, 5);
+            Download.BackColor = SystemColors.ActiveCaption;
+            Download.Location = new Point(658, 5);
             Download.Name = "Download";
-            Download.Size = new Size(75, 23);
+            Download.Size = new Size(123, 23);
             Download.TabIndex = 2;
             Download.Text = "Download";
-            Download.UseVisualStyleBackColor = true;
+            Download.UseVisualStyleBackColor = false;
             Download.Click += button1_Click;
             // 
             // tabPage2

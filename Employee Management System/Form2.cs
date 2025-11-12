@@ -53,7 +53,7 @@ namespace Employee_Management_System
 
         private void btnExecute_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Are you sure you want to execute?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you sure you want to register?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
@@ -111,25 +111,34 @@ namespace Employee_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ExportDgv.ExportToExcel(dgvUsers, "ExportData");
+            ExportDgv.ExportToExcel(dgvUsers, "ExportedData" + DateTime.Now.ToString("MM-dd-yyyy"));
         }
 
         private void dgvUsers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-         //   string templatePath = "C:\Employee Details.xlsx";
-         //   string savePath = "C:\Employee Details\EmployeeDetails.xlsx";
+            string templatePath = @"C:\LOCALDB\EmployeeDetails.xlsx";
+            string savePath = @"C:\LOCALDB\EmployeeDetails.xlsx";
 
-         //   ExportCellFromDgv.ExportFromTemplate(
-         //       templatePath,
-         //       savePath,
-         //       "B1", dgvUsers.Rows[e.RowIndex].Cells["Fullname"].Value.ToString(),
-         //       "H2", dgvUsers.Rows[e.RowIndex].Cells["Age"].Value.ToString(),
-         //       "H1", dgvUsers.Rows[e.RowIndex].Cells["Section"].Value.ToString(),
-         //       "B2", dgvUsers.Rows[e.RowIndex].Cells["Username"].Value.ToString(),
-         //       "A32", DateTime.Now.ToString("MM/dd/yyyy"),
-         //       "A33", LoginPage.Fullname
-         //       );
-         //}
+            ExportCellFromDgv.ExportFromTemplate(
+                templatePath,
+                savePath,
+                "B1", dgvUsers.Rows[e.RowIndex].Cells["Fullname"].Value.ToString(),
+                "H2", dgvUsers.Rows[e.RowIndex].Cells["Age"].Value.ToString(),
+                "H1", dgvUsers.Rows[e.RowIndex].Cells["Section"].Value.ToString(),
+                "B2", dgvUsers.Rows[e.RowIndex].Cells["Username"].Value.ToString(),
+                "A32", DateTime.Now.ToString("MM-dd-yyyy"),
+                "A33", frmLogin.Fullname
+                );
+        }
+
+        private void lblMatch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbSection_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

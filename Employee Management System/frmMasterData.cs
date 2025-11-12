@@ -19,7 +19,8 @@ namespace Employee_Management_System
 
         private void frmMasterData_Load(object sender, EventArgs e)
         {
-            string select_tblrequestorlist = "select * from tblEmployeeData ORDER BY EmployeeNumber DESC";
+          
+            string select_tblrequestorlist = "select * from tblEmployeeData ORDER BY ID DESC";
             CRUD.CRUD.RETRIEVEDTG(dtgMasterData, select_tblrequestorlist);
         }
 
@@ -50,31 +51,66 @@ namespace Employee_Management_System
         {
 
 
+            if (string.IsNullOrEmpty(selectedTransaction))
+            {
+                MessageBox.Show("Please select a record to edit.", "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Load selected row details into static variables
+            DataGridViewRow row = dtgMasterData.CurrentRow;
+
+            RequestorName = row.Cells["RequestorName"].Value.ToString();
+            RequestorEmail = row.Cells["RequestorEmail"].Value.ToString();
+            Section = row.Cells["Section"].Value.ToString();
+            LocalNumber = row.Cells["LocalNumber"].Value.ToString();
+            EmployeeNumber = row.Cells["EmployeeNumber"].Value.ToString();
+
+            // Open Add/Edit form
             frmAddEmployee frmAddEmployee = new frmAddEmployee();
             frmAddEmployee.ShowDialog();
-            string select_tblrequestorlist = "select * from tblEmployeeData ORDER BY EmployeeNumber DESC";
-            CRUD.CRUD.RETRIEVEDTG(dtgMasterData, select_tblrequestorlist);
 
+            Refresh();
 
+            ClearSelection();
         }
+
+        private void ClearSelection()
+        {
+            selectedTransaction = "";
+            RequestorName = "";
+            RequestorEmail = "";
+            Section = "";
+            LocalNumber = "";
+            EmployeeNumber = "";
+            lblTransactionNo.Text = "";
+        }
+
 
         public void Refresh()
         {
-            string query = "Select * from tblEmployeeData ORDER BY EmployeeNumber DESC";
+            string query = "Select * from tblEmployeeData ORDER BY ID DESC";
             CRUD.CRUD.RETRIEVEDTG(dtgMasterData, query);
         }
 
         private void dtgMasterData_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                lblTransactionNo.Text = dtgMasterData.CurrentRow.Cells["ID"].Value.ToString();
+                selectedTransaction = lblTransactionNo.Text;
+            }
 
-            lblTransactionNo.Text = dtgMasterData.CurrentRow.Cells["ID"].Value.ToString();
-            selectedTransaction = lblTransactionNo.Text;
-            RequestorName = dtgMasterData.CurrentRow.Cells["RequestorName"].Value.ToString();
-            RequestorEmail = dtgMasterData.CurrentRow.Cells["RequestorEmail"].Value.ToString();
-            Section = dtgMasterData.CurrentRow.Cells["Section"].Value.ToString();
-            LocalNumber = dtgMasterData.CurrentRow.Cells["LocalNumber"].Value.ToString();
-            EmployeeNumber = dtgMasterData.CurrentRow.Cells["EmployeeNumber"].Value.ToString();
         }
     }
 }
+
+//lblTransactionNo.Text = dtgMasterData.CurrentRow.Cells["ID"].Value.ToString();
+//selectedTransaction = lblTransactionNo.Text;
+//RequestorName = dtgMasterData.CurrentRow.Cells["RequestorName"].Value.ToString();
+//RequestorEmail = dtgMasterData.CurrentRow.Cells["RequestorEmail"].Value.ToString();
+//Section = dtgMasterData.CurrentRow.Cells["Section"].Value.ToString();
+//LocalNumber = dtgMasterData.CurrentRow.Cells["LocalNumber"].Value.ToString();
+//EmployeeNumber = dtgMasterData.CurrentRow.Cells["EmployeeNumber"].Value.ToString();
+
 

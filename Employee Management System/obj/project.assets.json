@@ -2,20 +2,11 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "Microsoft.Office.Interop.Excel/16.0.18925.20022": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Office.Interop.Excel.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Office.Interop.Excel.dll": {}
-        }
-      },
-      "System.Configuration.ConfigurationManager/9.0.8": {
+      "System.Configuration.ConfigurationManager/9.0.10": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "9.0.8",
-          "System.Security.Cryptography.ProtectedData": "9.0.8"
+          "System.Diagnostics.EventLog": "9.0.10",
+          "System.Security.Cryptography.ProtectedData": "9.0.10"
         },
         "compile": {
           "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
@@ -31,11 +22,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Data.OleDb/9.0.8": {
+      "System.Data.OleDb/9.0.10": {
         "type": "package",
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "9.0.8",
-          "System.Diagnostics.PerformanceCounter": "9.0.8"
+          "System.Configuration.ConfigurationManager": "9.0.10",
+          "System.Diagnostics.PerformanceCounter": "9.0.10"
         },
         "compile": {
           "lib/net8.0/System.Data.OleDb.dll": {
@@ -57,7 +48,7 @@
           }
         }
       },
-      "System.Diagnostics.EventLog/9.0.8": {
+      "System.Diagnostics.EventLog/9.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Diagnostics.EventLog.dll": {
@@ -83,10 +74,10 @@
           }
         }
       },
-      "System.Diagnostics.PerformanceCounter/9.0.8": {
+      "System.Diagnostics.PerformanceCounter/9.0.10": {
         "type": "package",
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "9.0.8"
+          "System.Configuration.ConfigurationManager": "9.0.10"
         },
         "compile": {
           "lib/net8.0/System.Diagnostics.PerformanceCounter.dll": {
@@ -108,7 +99,7 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/9.0.8": {
+      "System.Security.Cryptography.ProtectedData/9.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
@@ -127,26 +118,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Office.Interop.Excel/16.0.18925.20022": {
-      "sha512": "Wlhtqu3QfLnDRHc77bJewv5k27VASgcINA3eDAljfZQX9iTuM+12Mt7EJYZpxn+2gBw9dlK7q6riUxuXd4cviw==",
+    "System.Configuration.ConfigurationManager/9.0.10": {
+      "sha512": "5CBhl5dWmckKEtvk8F6GXtmHxNBoqAC8xILxIntNm7AzHiXQ09CXSLhncIJ/cQWaiNYzLjHZCgtMfx9tkCKHdA==",
       "type": "package",
-      "path": "microsoft.office.interop.excel/16.0.18925.20022",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "docs/readme.md",
-        "lib/net40/Microsoft.Office.Interop.Excel.dll",
-        "lib/net5.0/Microsoft.Office.Interop.Excel.dll",
-        "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll",
-        "microsoft.office.interop.excel.16.0.18925.20022.nupkg.sha512",
-        "microsoft.office.interop.excel.nuspec",
-        "nuget.exe"
-      ]
-    },
-    "System.Configuration.ConfigurationManager/9.0.8": {
-      "sha512": "BR70HYY5jeOa/jBrd/wyydpuqhFyla2ybQRL/UPBIiSvctVqi18iQoM44Gx41jy7t6wuAdKuTnie6io4j8aq3w==",
-      "type": "package",
-      "path": "system.configuration.configurationmanager/9.0.8",
+      "path": "system.configuration.configurationmanager/9.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -166,15 +141,15 @@
         "lib/net9.0/System.Configuration.ConfigurationManager.xml",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.9.0.8.nupkg.sha512",
+        "system.configuration.configurationmanager.9.0.10.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Data.OleDb/9.0.8": {
-      "sha512": "wCEMwzzrCS6Rdv2nliZQTE+b5mwsEOivRAHrUwHd01SRqJgVxDOtHjFhGQBtMPVY5niT/bZ0bE+0kbKz4Vx2TA==",
+    "System.Data.OleDb/9.0.10": {
+      "sha512": "LwiN01NosLlqowmrD1ej1qM1O3GVZeQZzbWrTwYLyeQUGyTVt8yVsTgsRnIJmKny1ENdVcQ9WhKUjzBnh37fsQ==",
       "type": "package",
-      "path": "system.data.oledb/9.0.8",
+      "path": "system.data.oledb/9.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -198,15 +173,15 @@
         "runtimes/win/lib/net8.0/System.Data.OleDb.xml",
         "runtimes/win/lib/net9.0/System.Data.OleDb.dll",
         "runtimes/win/lib/net9.0/System.Data.OleDb.xml",
-        "system.data.oledb.9.0.8.nupkg.sha512",
+        "system.data.oledb.9.0.10.nupkg.sha512",
         "system.data.oledb.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.EventLog/9.0.8": {
-      "sha512": "gebRF3JLLJ76jz1CQpvwezNapZUjFq20JQsaGHzBH0DzlkHBLpdhwkOei9usiOkIGMwU/L0ALWpNe1JE+5/itw==",
+    "System.Diagnostics.EventLog/9.0.10": {
+      "sha512": "Jc+az1pTMujPLDn2j5eqSfzlO7j/T1K/LB7THxdfRWOxujE4zaitUqBs7sv1t6/xmmvpU6Xx3IofCs4owYH0yQ==",
       "type": "package",
-      "path": "system.diagnostics.eventlog/9.0.8",
+      "path": "system.diagnostics.eventlog/9.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -232,15 +207,15 @@
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.9.0.8.nupkg.sha512",
+        "system.diagnostics.eventlog.9.0.10.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.PerformanceCounter/9.0.8": {
-      "sha512": "9jQDqjiJ9VF9M2eVdT09gfU8yg5mhqEkfiZeB3hMjlYApNVJK6vXt9u5T8Oj5Hc+H9zNmrRzTjkXtEF5HcbAfg==",
+    "System.Diagnostics.PerformanceCounter/9.0.10": {
+      "sha512": "35eXaOLXv8ATGDVr946gK0sNEEOwuFzhjFjTQftWh0swhLiyIjAD1pu17tu/SVENpKPZwqJ2e7IIcLpIs0GEzQ==",
       "type": "package",
-      "path": "system.diagnostics.performancecounter/9.0.8",
+      "path": "system.diagnostics.performancecounter/9.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -264,15 +239,15 @@
         "runtimes/win/lib/net8.0/System.Diagnostics.PerformanceCounter.xml",
         "runtimes/win/lib/net9.0/System.Diagnostics.PerformanceCounter.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.PerformanceCounter.xml",
-        "system.diagnostics.performancecounter.9.0.8.nupkg.sha512",
+        "system.diagnostics.performancecounter.9.0.10.nupkg.sha512",
         "system.diagnostics.performancecounter.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/9.0.8": {
-      "sha512": "w7+KCnqmtDboV8dxTLxlUltasP7AgzNFdTLq1D/ey50ykgXW+CJBIQkzYZjgPzmjKB+/PGGUKYrH7TSbwrDtRw==",
+    "System.Security.Cryptography.ProtectedData/9.0.10": {
+      "sha512": "iC0InhfWdk0nHlbcTAAUyWt9X4+CsaZz9elQy0otFcsUkd/Wm+DmEwjqyH9PgFl1XcSowzhv67njCstABTc3Hw==",
       "type": "package",
-      "path": "system.security.cryptography.protecteddata/9.0.8",
+      "path": "system.security.cryptography.protecteddata/9.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -298,7 +273,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.security.cryptography.protecteddata.9.0.8.nupkg.sha512",
+        "system.security.cryptography.protecteddata.9.0.10.nupkg.sha512",
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -306,28 +281,27 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Microsoft.Office.Interop.Excel >= 16.0.18925.20022",
-      "System.Data.OleDb >= 9.0.8"
+      "System.Data.OleDb >= 9.0.10"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dmin\\.nuget\\packages\\": {},
+    "C:\\Users\\CCITGuest\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+      "projectUniqueName": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
       "projectName": "Employee Management System",
-      "projectPath": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
-      "packagesPath": "C:\\Users\\dmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\obj\\",
+      "projectPath": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+      "packagesPath": "C:\\Users\\CCITGuest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CCITGuest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -360,13 +334,9 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
-          "Microsoft.Office.Interop.Excel": {
-            "target": "Package",
-            "version": "[16.0.18925.20022, )"
-          },
           "System.Data.OleDb": {
             "target": "Package",
-            "version": "[9.0.8, )"
+            "version": "[9.0.10, )"
           }
         },
         "imports": [
@@ -388,7 +358,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

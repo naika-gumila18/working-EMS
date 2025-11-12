@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj": {}
+    "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj": {
+    "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+        "projectUniqueName": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
         "projectName": "Employee Management System",
-        "projectPath": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\Employee Management System.csproj",
-        "packagesPath": "C:\\Users\\dmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmin\\working-EMS\\Employee Management System\\obj\\",
+        "projectPath": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\Employee Management System.csproj",
+        "packagesPath": "C:\\Users\\CCITGuest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CCITGuest\\Desktop\\EMS FINAL\\working-EMS\\Employee Management System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CCITGuest\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,13 +50,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "Microsoft.Office.Interop.Excel": {
-              "target": "Package",
-              "version": "[16.0.18925.20022, )"
-            },
             "System.Data.OleDb": {
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -78,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

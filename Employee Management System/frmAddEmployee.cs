@@ -35,46 +35,59 @@ namespace Employee_Management_System
 
             string check = "Select * from [tblEmployeeData] WHERE [ID] =  " + frmMasterData.selectedTransaction;
 
-
-            if (!string.IsNullOrEmpty(frmMasterData.selectedTransaction))
+            if (string.IsNullOrEmpty(frmMasterData.selectedTransaction))
             {
-                bool exists = CRUD.CRUD.RETRIEVESINGLE(check);
-
-                if (exists)
-                {
-                    string update = "UPDATE [tblEmployeeData] SET [RequestorName] = '" + txtRequestorName.Text + "', [RequestorEmail] = '" + txtEmailAddress.Text + "', [Section] = '" + cmbSection.Text + "', [LocalNumber] = '" + txtLocalNumber.Text + "', [EmployeeNumber] = '" + txtEmpID.Text + "' where [ID] = " + frmMasterData.selectedTransaction;
-                    CRUD.CRUD.CUD(update);
-                    MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                }
-                else
-                {
-                    txtEmailAddress.Clear();
-                    txtEmpID.Clear();
-                    txtLocalNumber.Clear();
-                    txtRequestorName.Clear();
-                    this.Close();
-                }
-                txtRequestorName.Text = "";
-                txtEmailAddress.Text = "";
-                txtLocalNumber.Text = "";
-
-
-            }
-
-            else
-            {
-                string add_requestor = "Insert into [tblEmployeeData] ([EmployeeNumber], [RequestorName], [RequestorEmail], [Section], [LocalNumber]) values ('" + txtEmpID.Text + "','" + txtRequestorName.Text + "','" + txtEmailAddress.Text + "','" + cmbSection.Text + "','" + txtLocalNumber.Text + "')";
-                CRUD.CRUD.CUD(add_requestor);
+                string insertQuery = "INSERT INTO [tblEmployeeData] ([EmployeeNumber], [RequestorName], [RequestorEmail], [Section], [LocalNumber]) " +
+                                     "VALUES ('" + txtEmpID.Text + "', '" + txtRequestorName.Text + "', '" + txtEmailAddress.Text + "', '" + cmbSection.Text + "', '" + txtLocalNumber.Text + "')";
+                CRUD.CRUD.CUD(insertQuery);
                 MessageBox.Show("Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Close();
-                
-              
             }
+            else 
+            {
+               
+
+
+                    string updateQuery = "UPDATE [tblEmployeeData] SET " +
+                                     "[RequestorName] = '" + txtRequestorName.Text + "', " +
+                                     "[RequestorEmail] = '" + txtEmailAddress.Text + "', " +
+                                     "[Section] = '" + cmbSection.Text + "', " +
+                                     "[LocalNumber] = '" + txtLocalNumber.Text + "', " +
+                                     "[EmployeeNumber] = '" + txtEmpID.Text + "' " +
+                                     "WHERE [ID] = " + frmMasterData.selectedTransaction;
+
+                    CRUD.CRUD.CUD(updateQuery);
+                    MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+               
+            }
+
             this.Close();
+            //if (!string.IsNullOrEmpty(frmMasterData.selectedTransaction))
+            //{
+            //    bool exists = CRUD.CRUD.RETRIEVESINGLE(check);
+
+            //    if (exists)
+            //    {
+            //        string update = "UPDATE [tblEmployeeData] SET [RequestorName] = '" + txtRequestorName.Text + "', [RequestorEmail] = '" + txtEmailAddress.Text + "', [Section] = '" + cmbSection.Text + "', [LocalNumber] = '" + txtLocalNumber.Text + "', [EmployeeNumber] = '" + txtEmpID.Text + "' where [ID] = " + frmMasterData.selectedTransaction;
+            //        CRUD.CRUD.CUD(update);
+            //        MessageBox.Show("Updated Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            //    }
+            //}
+
+            //else
+            //{
+            //    string add_requestor = "Insert into [tblEmployeeData] ([EmployeeNumber], [RequestorName], [RequestorEmail], [Section], [LocalNumber]) values ('" + txtEmpID.Text + "','" + txtRequestorName.Text + "','" + txtEmailAddress.Text + "','" + cmbSection.Text + "','" + txtLocalNumber.Text + "')";
+            //    CRUD.CRUD.CUD(add_requestor);
+            //    MessageBox.Show("Added Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    this.Close();
+
+
+            //}
+            //this.Close();
         }
         private void frmAddEmployee_Load(object sender, EventArgs e)
         {
+
             txtEmpID.Text = frmMasterData.EmployeeNumber;
             txtEmailAddress.Text = frmMasterData.RequestorEmail;
             txtRequestorName.Text = frmMasterData.RequestorName;
@@ -97,33 +110,23 @@ namespace Employee_Management_System
             }
         }
 
-        private void ClearFields()
-        {
-            txtEmpID.Clear();
-            txtRequestorName.Clear();
-            txtEmailAddress.Clear();
-            txtLocalNumber.Clear();
-            cmbSection.SelectedIndex = -1;
-        }
+      
 
-        private void NotifyParentToRefresh()
-        {
-
-            foreach (Form form in Application.OpenForms)
-            {
-                if (form is frmMasterData masterDataForm)
-                {
-                    masterDataForm.Refresh();
-                    break;
-                }
-            }
-        }
 
         private void txtLocalNumber_TextChanged(object sender, EventArgs e)
         {
 
         }
-       
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

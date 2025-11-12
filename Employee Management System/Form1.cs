@@ -45,7 +45,7 @@ namespace Employee_Management_System
             }
         }
 
-        
+
         private void frmMotherForm_Load(object sender, EventArgs e)
         {
             this.Text = string.Empty;
@@ -61,7 +61,7 @@ namespace Employee_Management_System
         private Panel leftBorderBtn;
         private Form currentChildForm;
 
-       
+
         private void OpenChildForm(Form childForm)
         {
             if (currentChildForm != null)
@@ -91,6 +91,11 @@ namespace Employee_Management_System
         private void btnSettings_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Form2());
+        }
+
+        private void lblSection_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
